@@ -1,0 +1,298 @@
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="KairoF1 – svět rychlosti, motorsportu a Formule 1.">
+    <meta name="theme-color" content="#090909">
+    <title>KairoF1 | Racing Experience</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="top-line"></div>
+
+    <header class="header">
+        <a href="#" class="logo">KAIRO<span>F1</span><small>RACING EXPERIENCE</small></a>
+
+        <button class="menu-toggle" id="menu-toggle" aria-label="Otevřít menu">
+            <span></span><span></span><span></span>
+        </button>
+
+        <nav class="navigation" id="navigation">
+            <a href="#home">DOMŮ</a>
+            <a href="#about">O FORMULI 1</a>
+            <a href="#teams">TÝMY</a>
+            <a href="#technology">TECHNOLOGIE</a>
+            <a href="#legends">LEGENDY</a>
+        </nav>
+
+        <a href="#about" class="header-button">EXPLORE F1 <span>↗</span></a>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero" id="home">
+            <div class="hero-background"></div>
+            <div class="hero-content">
+                <div class="hero-label">
+                    <span class="live-dot"></span>
+                    THE WORLD OF MOTORSPORT
+                </div>
+
+                <h1>BUILT FOR<br><span>SPEED.</span></h1>
+
+                <p class="hero-description">
+                    Adrenalin. Technologie. Přesnost.
+                    Poznej svět Formule 1, kde rozhodují tisíciny sekundy.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#about" class="button-red">OBJEVIT FORMULI 1 <span>→</span></a>
+                    <a href="#teams" class="button-outline">POZNAT TÝMY</a>
+                </div>
+
+                <div class="hero-bottom">
+                    <span>01 / RACING CULTURE</span>
+                    <span>PRECISION IS EVERYTHING</span>
+                </div>
+            </div>
+
+            <div class="hero-number">01</div>
+            <div class="hero-vertical">KAIRO MOTORSPORT PROJECT</div>
+
+            <div class="hero-car">
+                <svg viewBox="0 0 900 300" role="img" aria-label="Stylizovaná ilustrace závodního monopostu">
+                    <defs>
+                        <linearGradient id="carPaint" x1="0" x2="1" y1="0" y2="1">
+                            <stop offset="0%" stop-color="#ff5a5a"/>
+                            <stop offset="55%" stop-color="#d80018"/>
+                            <stop offset="100%" stop-color="#76000c"/>
+                        </linearGradient>
+                    </defs>
+                    <ellipse cx="455" cy="263" rx="380" ry="18" fill="#000" opacity=".65"/>
+                    <path d="M90 205 L160 188 L230 180 L295 155 L370 140 L455 135 L520 145 L610 165 L700 178 L820 190 L850 207 L820 225 L720 225 L660 215 L565 215 L500 230 L380 230 L315 215 L230 220 L155 230 L100 220 Z" fill="url(#carPaint)" stroke="#ff6868" stroke-width="3"/>
+                    <path d="M325 154 L390 92 L505 95 L565 160 L485 170 L385 169 Z" fill="#171a20" stroke="#aaa" stroke-width="2"/>
+                    <path d="M390 94 L414 72 L492 75 L508 96 Z" fill="#a9b5c5"/>
+                    <path d="M420 72 L445 54 L475 56 L493 75 Z" fill="#d8dce2"/>
+                    <path d="M85 184 L205 180 L205 195 L85 201 Z" fill="#e8e8e8"/>
+                    <path d="M710 178 L845 185 L850 198 L700 194 Z" fill="#e8e8e8"/>
+                    <path d="M200 194 L330 185 L380 201 L300 208 Z" fill="#ffb2b2" opacity=".7"/>
+                    <path d="M525 174 L690 185 L720 202 L575 193 Z" fill="#a90013"/>
+                    <path d="M365 215 L520 215 L545 235 L350 235 Z" fill="#111"/>
+                    <path d="M455 134 L475 190 L510 195 L520 145 Z" fill="#222"/>
+                    <path d="M150 190 L150 145 L260 150 L260 163 L190 168 L190 193 Z" fill="#151515"/>
+                    <path d="M675 184 L675 143 L800 151 L800 164 L720 168 L720 192 Z" fill="#151515"/>
+                    <path d="M245 207 L330 201 L355 215 L260 222 Z" fill="#fff"/>
+                    <path d="M560 202 L655 206 L680 217 L575 217 Z" fill="#fff"/>
+                    <circle cx="250" cy="219" r="48" fill="#101010" stroke="#555" stroke-width="8"/>
+                    <circle cx="250" cy="219" r="20" fill="#777"/>
+                    <circle cx="680" cy="219" r="48" fill="#101010" stroke="#555" stroke-width="8"/>
+                    <circle cx="680" cy="219" r="20" fill="#777"/>
+                    <path d="M380 165 L520 165 L540 179 L365 179 Z" fill="#f0f0f0" opacity=".8"/>
+                    <path d="M420 187 L500 187" stroke="#fff" stroke-width="4"/>
+                    <path d="M100 224 L800 224" stroke="#ed1c2e" stroke-width="4"/>
+                </svg>
+            </div>
+        </section>
+
+        <!-- INTRO -->
+        <section class="intro section" id="about">
+            <div class="section-tag"><span>01</span> / THE SPORT</div>
+
+            <div class="intro-layout">
+                <div>
+                    <h2>VÍC NEŽ JEN<br><span>ZÁVOD.</span></h2>
+                </div>
+                <div class="intro-text">
+                    <p>
+                        Formule 1 je vrchol světového motorsportu.
+                        Spojuje špičkové inženýrství, strategii,
+                        odvahu jezdců a týmovou spolupráci.
+                    </p>
+                    <p>
+                        Každý závod je soubojem rychlosti, rozhodování
+                        a preciznosti. I ten nejmenší detail může
+                        rozhodnout o výsledku.
+                    </p>
+                    <a href="#technology" class="text-link">POZNAT TECHNOLOGIE <span>↗</span></a>
+                </div>
+            </div>
+
+            <div class="stats-grid">
+                <article class="stat">
+                    <strong>300<span>+</span></strong>
+                    <p>KM/H NA ROVINCE</p>
+                </article>
+                <article class="stat">
+                    <strong>0.0<span>1</span></strong>
+                    <p>SEKUNDY MOHOU ROZHODNOUT</p>
+                </article>
+                <article class="stat">
+                    <strong>100<span>%</span></strong>
+                    <p>SOUSTŘEDĚNÍ</p>
+                </article>
+                <article class="stat">
+                    <strong>1<span>/</span>20</strong>
+                    <p>JEDEN Z MALÉ SKUPINY JEZDCŮ</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- TEAMS -->
+        <section class="teams section" id="teams">
+            <div class="section-heading">
+                <div>
+                    <div class="section-tag"><span>02</span> / THE GRID</div>
+                    <h2>LEGENDÁRNÍ <span>STÁJE.</span></h2>
+                </div>
+                <p>Každý tým má vlastní historii, identitu a závodní filozofii.</p>
+            </div>
+
+            <div class="team-filters">
+                <button class="filter active" data-filter="all">VŠECHNY</button>
+                <button class="filter" data-filter="red">ČERVENÁ</button>
+                <button class="filter" data-filter="orange">ORANŽOVÁ</button>
+                <button class="filter" data-filter="silver">STŘÍBRNÁ</button>
+            </div>
+
+            <div class="team-grid">
+                <article class="team-card" data-color="red">
+                    <div class="team-card-top"><span>01</span><span>ITALY</span></div>
+                    <div class="team-symbol ferrari">F</div>
+                    <h3>SCUDERIA FERRARI</h3>
+                    <p>Tradice • Vášeň • Závodní historie</p>
+                    <div class="team-line red-line"></div>
+                </article>
+
+                <article class="team-card" data-color="orange">
+                    <div class="team-card-top"><span>02</span><span>UNITED KINGDOM</span></div>
+                    <div class="team-symbol mclaren">M</div>
+                    <h3>McLAREN</h3>
+                    <p>Inovace • Rychlost • Ambice</p>
+                    <div class="team-line orange-line"></div>
+                </article>
+
+                <article class="team-card" data-color="silver">
+                    <div class="team-card-top"><span>03</span><span>GERMANY</span></div>
+                    <div class="team-symbol mercedes">M</div>
+                    <h3>MERCEDES</h3>
+                    <p>Technologie • Přesnost • Výkon</p>
+                    <div class="team-line silver-line"></div>
+                </article>
+
+                <article class="team-card" data-color="red">
+                    <div class="team-card-top"><span>04</span><span>AUSTRIA</span></div>
+                    <div class="team-symbol redbull">RB</div>
+                    <h3>RED BULL RACING</h3>
+                    <p>Odvaha • Energie • Výkonnost</p>
+                    <div class="team-line red-line"></div>
+                </article>
+            </div>
+            <p class="small-note">Ukázka vybraných známých týmů. Nejde o kompletní startovní rošt sezony.</p>
+        </section>
+
+        <!-- TECHNOLOGY -->
+        <section class="technology section" id="technology">
+            <div class="section-tag"><span>03</span> / ENGINEERING</div>
+            <div class="technology-layout">
+                <div class="technology-title">
+                    <h2>TECHNOLOGIE<br>NA <span>HRANĚ.</span></h2>
+                    <p>Za rychlostí monopostu stojí tisíce hodin vývoje.</p>
+                </div>
+
+                <div class="technology-list">
+                    <article class="tech-item">
+                        <span class="tech-number">01</span>
+                        <div>
+                            <h3>AERODYNAMIKA</h3>
+                            <p>Proudění vzduchu ovlivňuje přítlak, stabilitu a rychlost monopostu.</p>
+                        </div>
+                        <span class="tech-arrow">↗</span>
+                    </article>
+
+                    <article class="tech-item">
+                        <span class="tech-number">02</span>
+                        <div>
+                            <h3>POHONNÁ JEDNOTKA</h3>
+                            <p>Hybridní technologie propojuje spalovací motor a elektrickou energii.</p>
+                        </div>
+                        <span class="tech-arrow">↗</span>
+                    </article>
+
+                    <article class="tech-item">
+                        <span class="tech-number">03</span>
+                        <div>
+                            <h3>PNEUMATIKY</h3>
+                            <p>Volba směsi a správná teplota pneumatik jsou důležité pro výkon.</p>
+                        </div>
+                        <span class="tech-arrow">↗</span>
+                    </article>
+
+                    <article class="tech-item">
+                        <span class="tech-number">04</span>
+                        <div>
+                            <h3>PIT STOP</h3>
+                            <p>Dokonalá koordinace týmu umožňuje rychlou výměnu pneumatik.</p>
+                        </div>
+                        <span class="tech-arrow">↗</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- LEGENDS -->
+        <section class="legends section" id="legends">
+            <div class="section-heading">
+                <div>
+                    <div class="section-tag"><span>04</span> / ICONS</div>
+                    <h2>JEDINEČNÉ <span>LEGENDY.</span></h2>
+                </div>
+                <p>Jména, která zanechala nesmazatelnou stopu v motorsportu.</p>
+            </div>
+
+            <div class="legend-grid">
+                <article class="legend-card">
+                    <span class="legend-year">LEGEND / 01</span>
+                    <h3>AYRTON<br>SENNA</h3>
+                    <p>Brazilská závodní legenda a trojnásobný mistr světa.</p>
+                    <span class="legend-number">01</span>
+                </article>
+
+                <article class="legend-card">
+                    <span class="legend-year">LEGEND / 02</span>
+                    <h3>MICHAEL<br>SCHUMACHER</h3>
+                    <p>Jeden z nejúspěšnějších jezdců historie Formule 1.</p>
+                    <span class="legend-number">02</span>
+                </article>
+
+                <article class="legend-card">
+                    <span class="legend-year">LEGEND / 03</span>
+                    <h3>LEWIS<br>HAMILTON</h3>
+                    <p>Jezdec známý rekordními úspěchy a dlouhou kariérou.</p>
+                    <span class="legend-number">03</span>
+                </article>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="closing">
+            <div class="closing-inner">
+                <p class="section-tag">KAIROF1 / RACING EXPERIENCE</p>
+                <h2>FEEL THE<br><span>ADRENALINE.</span></h2>
+                <a href="#home" class="button-red">ZPĚT NAHORU ↑</a>
+            </div>
+            <div class="closing-stripes"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a href="#home" class="logo">KAIRO<span>F1</span><small>RACING EXPERIENCE</small></a>
+        <p>Nezávislý fanouškovský projekt o Formuli 1.</p>
+        <span>© 2026 KAIROF1. VYTVOŘENO S VÁŠNÍ PRO MOTORSPORT.</span>
+    </footer>
+
+</body>
+</html>
